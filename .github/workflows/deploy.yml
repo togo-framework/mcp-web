@@ -1,0 +1,41 @@
+name: deploy-mcp
+
+# Build the catalog + ship the MCP server to the togo box on every push.
+# The box (LXC 201) builds the image and runs it on the npm_default network,
+# behind Nginx Proxy Manager at https://mcp.to-go.dev.
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: deploy-mcp
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Build catalog snapshot
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: npm run build:catalog
+      - name: Ship → build → run on the box
+        env:
+          KEY: ${{ secrets.DEPLOY_SSH_KEY }}
+          HOST: ${{ secrets.DEPLOY_HOST }}
+        run: |
+          mkdir -p ~/.ssh && printf '%s\n' "$KEY" > ~/.ssh/id && chmod 600 ~/.ssh/id
+          ssh-keyscan -H "$HOST" >> ~/.ssh/known_hosts 2>/dev/null
+          tar czf /tmp/mcp.tgz --exclude=node_modules --exclude=.git .
+          scp -i ~/.ssh/id -o StrictHostKeyChecking=no /tmp/mcp.tgz "root@${HOST}:/tmp/mcp-web.tgz"
+          ssh -i ~/.ssh/id -o StrictHostKeyChecking=no "root@${HOST}" '
+            pct push 201 /tmp/mcp-web.tgz /tmp/mcp-web.tgz
+            pct exec 201 -- bash -c "rm -rf /opt/mcp-web && mkdir -p /opt/mcp-web && tar xzf /tmp/mcp-web.tgz -C /opt/mcp-web && cd /opt/mcp-web && docker build -t togo-mcp . && (docker rm -f togo-mcp 2>/dev/null || true) && docker run -d --name togo-mcp --network npm_default --restart unless-stopped togo-mcp"
+            rm -f /tmp/mcp-web.tgz
+          '
+          echo "Deployed → https://mcp.to-go.dev"
