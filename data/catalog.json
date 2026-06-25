@@ -12,6 +12,248 @@
       "install": null
     },
     {
+      "name": "ai",
+      "slug": "ai",
+      "description": "togo AI plugin — unified LLM interface (chat/embed/tools/stream) with a pluggable provider driver registry (openai, anthropic, gemini, ollama, …)",
+      "language": "Go",
+      "stars": 0,
+      "branch": "main",
+      "kind": "plugin",
+      "category": "other",
+      "install": "togo install togo-framework/ai"
+    },
+    {
+      "name": "ai-adk",
+      "slug": "ai-adk",
+      "description": "Google Agent Development Kit (ADK) integration for togo",
+      "language": "Go",
+      "stars": 0,
+      "branch": "main",
+      "kind": "plugin",
+      "category": "other",
+      "install": "togo install togo-framework/ai-adk"
+    },
+    {
+      "name": "ai-agentops",
+      "slug": "ai-agentops",
+      "description": "Agent operations & observability for togo — token/cost/latency tracking, feeds billing",
+      "language": "Go",
+      "stars": 0,
+      "branch": "main",
+      "kind": "plugin",
+      "category": "other",
+      "install": "togo install togo-framework/ai-agentops"
+    },
+    {
+      "name": "ai-agno",
+      "slug": "ai-agno",
+      "description": "Agno agent framework integration for togo",
+      "language": "Go",
+      "stars": 0,
+      "branch": "main",
+      "kind": "plugin",
+      "category": "other",
+      "install": "togo install togo-framework/ai-agno"
+    },
+    {
+      "name": "ai-anthropic",
+      "slug": "ai-anthropic",
+      "description": "Anthropic Claude driver for togo ai",
+      "language": "Go",
+      "stars": 0,
+      "branch": "main",
+      "kind": "plugin",
+      "category": "other",
+      "install": "togo install togo-framework/ai-anthropic"
+    },
+    {
+      "name": "ai-crawlee",
+      "slug": "ai-crawlee",
+      "description": "Go-native site crawler data-source for the togo AI kit",
+      "language": "Go",
+      "stars": 0,
+      "branch": "main",
+      "kind": "plugin",
+      "category": "other",
+      "install": "togo install togo-framework/ai-crawlee"
+    },
+    {
+      "name": "ai-deepseek",
+      "slug": "ai-deepseek",
+      "description": "DeepSeek LLM driver for togo ai",
+      "language": "Go",
+      "stars": 0,
+      "branch": "main",
+      "kind": "plugin",
+      "category": "other",
+      "install": "togo install togo-framework/ai-deepseek"
+    },
+    {
+      "name": "ai-firecrawl",
+      "slug": "ai-firecrawl",
+      "description": "Firecrawl scrape/crawl data-source (self-hosted + API) for the togo AI kit",
+      "language": "Go",
+      "stars": 0,
+      "branch": "main",
+      "kind": "plugin",
+      "category": "other",
+      "install": "togo install togo-framework/ai-firecrawl"
+    },
+    {
+      "name": "ai-gateway",
+      "slug": "ai-gateway",
+      "description": "togo AI gateway — rate limits, spend caps, response caching, prompt management & provider fallback",
+      "language": "Go",
+      "stars": 0,
+      "branch": "main",
+      "kind": "plugin",
+      "category": "other",
+      "install": "togo install togo-framework/ai-gateway"
+    },
+    {
+      "name": "ai-gemini",
+      "slug": "ai-gemini",
+      "description": "Google Gemini driver for togo ai",
+      "language": "Go",
+      "stars": 0,
+      "branch": "main",
+      "kind": "plugin",
+      "category": "other",
+      "install": "togo install togo-framework/ai-gemini"
+    },
+    {
+      "name": "ai-grok",
+      "slug": "ai-grok",
+      "description": "xAI Grok LLM driver for togo ai",
+      "language": "Go",
+      "stars": 0,
+      "branch": "main",
+      "kind": "plugin",
+      "category": "other",
+      "install": "togo install togo-framework/ai-grok"
+    },
+    {
+      "name": "ai-ollama",
+      "slug": "ai-ollama",
+      "description": "Ollama LLM driver for togo ai",
+      "language": "Go",
+      "stars": 0,
+      "branch": "main",
+      "kind": "plugin",
+      "category": "other",
+      "install": "togo install togo-framework/ai-ollama"
+    },
+    {
+      "name": "ai-openai",
+      "slug": "ai-openai",
+      "description": "OpenAI LLM driver for togo ai",
+      "language": "Go",
+      "stars": 0,
+      "branch": "main",
+      "kind": "plugin",
+      "category": "other",
+      "install": "togo install togo-framework/ai-openai"
+    },
+    {
+      "name": "ai-playwright",
+      "slug": "ai-playwright",
+      "description": "Headless-browser (Playwright) data-source for the togo AI kit",
+      "language": "Go",
+      "stars": 0,
+      "branch": "main",
+      "kind": "plugin",
+      "category": "other",
+      "install": "togo install togo-framework/ai-playwright"
+    },
+    {
+      "name": "ai-qwen",
+      "slug": "ai-qwen",
+      "description": "Qwen (DashScope) LLM driver for togo ai",
+      "language": "Go",
+      "stars": 0,
+      "branch": "main",
+      "kind": "plugin",
+      "category": "other",
+      "install": "togo install togo-framework/ai-qwen"
+    },
+    {
+      "name": "ai-rag",
+      "slug": "ai-rag",
+      "description": "RAG capability for togo (on the ai plugin)",
+      "language": "Go",
+      "stars": 0,
+      "branch": "main",
+      "kind": "plugin",
+      "category": "other",
+      "install": "togo install togo-framework/ai-rag"
+    },
+    {
+      "name": "ai-rss",
+      "slug": "ai-rss",
+      "description": "RSS/Atom feed data-source for the togo AI kit",
+      "language": "Go",
+      "stars": 0,
+      "branch": "main",
+      "kind": "plugin",
+      "category": "other",
+      "install": "togo install togo-framework/ai-rss"
+    },
+    {
+      "name": "ai-searxng",
+      "slug": "ai-searxng",
+      "description": "SearXNG metasearch data-source for the togo AI kit",
+      "language": "Go",
+      "stars": 0,
+      "branch": "main",
+      "kind": "plugin",
+      "category": "other",
+      "install": "togo install togo-framework/ai-searxng"
+    },
+    {
+      "name": "ai-stt",
+      "slug": "ai-stt",
+      "description": "Speech-to-Text for togo — Whisper + Deepgram drivers",
+      "language": "Go",
+      "stars": 0,
+      "branch": "main",
+      "kind": "plugin",
+      "category": "other",
+      "install": "togo install togo-framework/ai-stt"
+    },
+    {
+      "name": "ai-tts",
+      "slug": "ai-tts",
+      "description": "Text-to-Speech for togo — ElevenLabs + OpenAI TTS drivers (TTS_DRIVER)",
+      "language": "Go",
+      "stars": 0,
+      "branch": "main",
+      "kind": "plugin",
+      "category": "other",
+      "install": "togo install togo-framework/ai-tts"
+    },
+    {
+      "name": "analytics",
+      "slug": "analytics",
+      "description": "togo product analytics — event tracking, funnels, retention & dashboards",
+      "language": "Go",
+      "stars": 0,
+      "branch": "main",
+      "kind": "plugin",
+      "category": "other",
+      "install": "togo install togo-framework/analytics"
+    },
+    {
+      "name": "audit",
+      "slug": "audit",
+      "description": "togo audit log + model versioning — activity tracking with diffs & restore",
+      "language": "Go",
+      "stars": 0,
+      "branch": "main",
+      "kind": "plugin",
+      "category": "other",
+      "install": "togo install togo-framework/audit"
+    },
+    {
       "name": "auth",
       "slug": "auth",
       "description": "togo base auth: JWT + RBAC + multi-guard, Supabase/GoTrue first-class, OAuth/Firebase/WorkOS as plugins",
@@ -56,6 +298,17 @@
       "install": "togo install togo-framework/auth-oauth"
     },
     {
+      "name": "auth-platform",
+      "slug": "auth-platform",
+      "description": "togo organizations & teams — multi-tenant auth with per-org roles, invites & branding",
+      "language": "Go",
+      "stars": 0,
+      "branch": "main",
+      "kind": "plugin",
+      "category": "auth",
+      "install": "togo install togo-framework/auth-platform"
+    },
+    {
       "name": "auth-session-redis",
       "slug": "auth-session-redis",
       "description": "Redis session store for togo auth",
@@ -76,6 +329,94 @@
       "kind": "plugin",
       "category": "auth",
       "install": "togo install togo-framework/auth-workos"
+    },
+    {
+      "name": "authz",
+      "slug": "authz",
+      "description": "togo authorization — policies, gates & abilities beyond RBAC",
+      "language": "Go",
+      "stars": 0,
+      "branch": "main",
+      "kind": "plugin",
+      "category": "other",
+      "install": "togo install togo-framework/authz"
+    },
+    {
+      "name": "awesome-togo",
+      "slug": "awesome-togo",
+      "description": "A curated directory of everything in the togo ecosystem — plugins, CLI, agents, skills & tools. https://to-go.dev/marketplace",
+      "language": "",
+      "stars": 0,
+      "branch": "main",
+      "kind": "plugin",
+      "category": "other",
+      "install": "togo install togo-framework/awesome-togo"
+    },
+    {
+      "name": "backup",
+      "slug": "backup",
+      "description": "togo backups — scheduled DB + files archives to storage, retention & restore",
+      "language": "Go",
+      "stars": 0,
+      "branch": "main",
+      "kind": "plugin",
+      "category": "other",
+      "install": "togo install togo-framework/backup"
+    },
+    {
+      "name": "billing",
+      "slug": "billing",
+      "description": "Usage-based billing + API keys for togo — per-user keys, AI token metering, quotas & usage reports",
+      "language": "Go",
+      "stars": 0,
+      "branch": "main",
+      "kind": "plugin",
+      "category": "other",
+      "install": "togo install togo-framework/billing"
+    },
+    {
+      "name": "bot",
+      "slug": "bot",
+      "description": "togo bot plugin",
+      "language": "Go",
+      "stars": 0,
+      "branch": "main",
+      "kind": "plugin",
+      "category": "other",
+      "install": "togo install togo-framework/bot"
+    },
+    {
+      "name": "bot-discord",
+      "slug": "bot-discord",
+      "description": "togo bot-discord plugin",
+      "language": "Go",
+      "stars": 0,
+      "branch": "main",
+      "kind": "plugin",
+      "category": "other",
+      "install": "togo install togo-framework/bot-discord"
+    },
+    {
+      "name": "bot-slack",
+      "slug": "bot-slack",
+      "description": "togo bot-slack plugin",
+      "language": "Go",
+      "stars": 0,
+      "branch": "main",
+      "kind": "plugin",
+      "category": "other",
+      "install": "togo install togo-framework/bot-slack"
+    },
+    {
+      "name": "bot-telegram",
+      "slug": "bot-telegram",
+      "description": "togo bot-telegram plugin",
+      "language": "Go",
+      "stars": 0,
+      "branch": "main",
+      "kind": "plugin",
+      "category": "other",
+      "install": "togo install togo-framework/bot-telegram"
     },
     {
       "name": "cache",
@@ -100,6 +441,17 @@
       "install": "togo install togo-framework/cache-redis"
     },
     {
+      "name": "claude-togo",
+      "slug": "claude-togo",
+      "description": "Official ToGO plugin for Claude Code — scaffold & drive togo apps with AI (commands, agents, hooks + auto-connected MCP).",
+      "language": "Shell",
+      "stars": 0,
+      "branch": "main",
+      "kind": "plugin",
+      "category": "other",
+      "install": "togo install togo-framework/claude-togo"
+    },
+    {
       "name": "cli",
       "slug": "cli",
       "description": "The togo CLI — Laravel-artisan-like generators, codegen, plugins, MCP, deploy",
@@ -109,6 +461,28 @@
       "kind": "core",
       "category": "core",
       "install": null
+    },
+    {
+      "name": "contacts",
+      "slug": "contacts",
+      "description": "togo contacts plugin",
+      "language": "Go",
+      "stars": 0,
+      "branch": "main",
+      "kind": "plugin",
+      "category": "other",
+      "install": "togo install togo-framework/contacts"
+    },
+    {
+      "name": "contacts-google",
+      "slug": "contacts-google",
+      "description": "togo contacts-google plugin",
+      "language": "Go",
+      "stars": 0,
+      "branch": "main",
+      "kind": "plugin",
+      "category": "other",
+      "install": "togo install togo-framework/contacts-google"
     },
     {
       "name": "create-togo-app",
@@ -188,6 +562,215 @@
       "install": "togo install togo-framework/db-supabase"
     },
     {
+      "name": "deploy",
+      "slug": "deploy",
+      "description": "togo deploy subsystem — provider-agnostic Deployer contract (provision/deploy/destroy) for clouds, VPS, Docker, Kubernetes & Terraform",
+      "language": "Go",
+      "stars": 0,
+      "branch": "main",
+      "kind": "plugin",
+      "category": "other",
+      "install": "togo install togo-framework/deploy"
+    },
+    {
+      "name": "deploy-aws",
+      "slug": "deploy-aws",
+      "description": "AWS (App Runner) deploy driver for togo",
+      "language": "Go",
+      "stars": 0,
+      "branch": "main",
+      "kind": "plugin",
+      "category": "other",
+      "install": "togo install togo-framework/deploy-aws"
+    },
+    {
+      "name": "deploy-azure",
+      "slug": "deploy-azure",
+      "description": "Azure (Container Apps) deploy driver for togo",
+      "language": "Go",
+      "stars": 0,
+      "branch": "main",
+      "kind": "plugin",
+      "category": "other",
+      "install": "togo install togo-framework/deploy-azure"
+    },
+    {
+      "name": "deploy-centos",
+      "slug": "deploy-centos",
+      "description": "togo deploy driver: deploy-centos",
+      "language": "Go",
+      "stars": 0,
+      "branch": "main",
+      "kind": "plugin",
+      "category": "other",
+      "install": "togo install togo-framework/deploy-centos"
+    },
+    {
+      "name": "deploy-debian",
+      "slug": "deploy-debian",
+      "description": "togo deploy driver: deploy-debian",
+      "language": "Go",
+      "stars": 0,
+      "branch": "main",
+      "kind": "plugin",
+      "category": "other",
+      "install": "togo install togo-framework/deploy-debian"
+    },
+    {
+      "name": "deploy-digitalocean",
+      "slug": "deploy-digitalocean",
+      "description": "DigitalOcean deploy driver for togo",
+      "language": "Go",
+      "stars": 0,
+      "branch": "main",
+      "kind": "plugin",
+      "category": "other",
+      "install": "togo install togo-framework/deploy-digitalocean"
+    },
+    {
+      "name": "deploy-docker",
+      "slug": "deploy-docker",
+      "description": "togo deploy driver: deploy-docker",
+      "language": "Go",
+      "stars": 0,
+      "branch": "main",
+      "kind": "plugin",
+      "category": "other",
+      "install": "togo install togo-framework/deploy-docker"
+    },
+    {
+      "name": "deploy-gcp",
+      "slug": "deploy-gcp",
+      "description": "Google Cloud (Cloud Run) deploy driver for togo",
+      "language": "Go",
+      "stars": 0,
+      "branch": "main",
+      "kind": "plugin",
+      "category": "other",
+      "install": "togo install togo-framework/deploy-gcp"
+    },
+    {
+      "name": "deploy-hetzner",
+      "slug": "deploy-hetzner",
+      "description": "Hetzner Cloud deploy driver for togo",
+      "language": "Go",
+      "stars": 0,
+      "branch": "main",
+      "kind": "plugin",
+      "category": "other",
+      "install": "togo install togo-framework/deploy-hetzner"
+    },
+    {
+      "name": "deploy-kubernetes",
+      "slug": "deploy-kubernetes",
+      "description": "togo deploy driver: deploy-kubernetes",
+      "language": "Go",
+      "stars": 0,
+      "branch": "main",
+      "kind": "plugin",
+      "category": "other",
+      "install": "togo install togo-framework/deploy-kubernetes"
+    },
+    {
+      "name": "deploy-ovh",
+      "slug": "deploy-ovh",
+      "description": "OVHcloud (Public Cloud / OpenStack) deploy driver for togo",
+      "language": "Go",
+      "stars": 0,
+      "branch": "main",
+      "kind": "plugin",
+      "category": "other",
+      "install": "togo install togo-framework/deploy-ovh"
+    },
+    {
+      "name": "deploy-terraform",
+      "slug": "deploy-terraform",
+      "description": "togo deploy driver: deploy-terraform",
+      "language": "Go",
+      "stars": 0,
+      "branch": "main",
+      "kind": "plugin",
+      "category": "other",
+      "install": "togo install togo-framework/deploy-terraform"
+    },
+    {
+      "name": "deploy-ubuntu",
+      "slug": "deploy-ubuntu",
+      "description": "togo deploy driver: deploy-ubuntu",
+      "language": "Go",
+      "stars": 0,
+      "branch": "main",
+      "kind": "plugin",
+      "category": "other",
+      "install": "togo install togo-framework/deploy-ubuntu"
+    },
+    {
+      "name": "deploy-vultr",
+      "slug": "deploy-vultr",
+      "description": "Vultr deploy driver for togo",
+      "language": "Go",
+      "stars": 0,
+      "branch": "main",
+      "kind": "plugin",
+      "category": "other",
+      "install": "togo install togo-framework/deploy-vultr"
+    },
+    {
+      "name": "dns",
+      "slug": "dns",
+      "description": "togo DNS / reverse-proxy / API-gateway subsystem (base Provider contract)",
+      "language": "Go",
+      "stars": 0,
+      "branch": "main",
+      "kind": "plugin",
+      "category": "other",
+      "install": "togo install togo-framework/dns"
+    },
+    {
+      "name": "dns-caddy",
+      "slug": "dns-caddy",
+      "description": "Caddy reverse-proxy driver for the togo dns subsystem",
+      "language": "Go",
+      "stars": 0,
+      "branch": "main",
+      "kind": "plugin",
+      "category": "other",
+      "install": "togo install togo-framework/dns-caddy"
+    },
+    {
+      "name": "dns-cloudflare",
+      "slug": "dns-cloudflare",
+      "description": "Cloudflare DNS driver for the togo dns subsystem",
+      "language": "Go",
+      "stars": 0,
+      "branch": "main",
+      "kind": "plugin",
+      "category": "other",
+      "install": "togo install togo-framework/dns-cloudflare"
+    },
+    {
+      "name": "dns-kong",
+      "slug": "dns-kong",
+      "description": "Kong API-gateway driver (Supabase-friendly) for the togo dns subsystem",
+      "language": "Go",
+      "stars": 0,
+      "branch": "main",
+      "kind": "plugin",
+      "category": "other",
+      "install": "togo install togo-framework/dns-kong"
+    },
+    {
+      "name": "dns-npm",
+      "slug": "dns-npm",
+      "description": "Nginx Proxy Manager reverse-proxy driver for the togo dns subsystem",
+      "language": "Go",
+      "stars": 0,
+      "branch": "main",
+      "kind": "plugin",
+      "category": "other",
+      "install": "togo install togo-framework/dns-npm"
+    },
+    {
       "name": "faker",
       "slug": "faker",
       "description": "togo faker: fake data for factories/seeders",
@@ -197,6 +780,17 @@
       "kind": "plugin",
       "category": "dev",
       "install": "togo install togo-framework/faker"
+    },
+    {
+      "name": "flags",
+      "slug": "flags",
+      "description": "togo feature flags + A/B testing — rollouts, targeting, experiments",
+      "language": "Go",
+      "stars": 0,
+      "branch": "main",
+      "kind": "plugin",
+      "category": "other",
+      "install": "togo install togo-framework/flags"
     },
     {
       "name": "i18n",
@@ -210,6 +804,39 @@
       "install": "togo install togo-framework/i18n"
     },
     {
+      "name": "import-export",
+      "slug": "import-export",
+      "description": "togo import/export — CSV & Excel data import/export with mapping & validation",
+      "language": "Go",
+      "stars": 0,
+      "branch": "main",
+      "kind": "plugin",
+      "category": "other",
+      "install": "togo install togo-framework/import-export"
+    },
+    {
+      "name": "knowledge-base",
+      "slug": "knowledge-base",
+      "description": "togo knowledge base — crawl, chunk, embed & hybrid-search content for RAG",
+      "language": "Go",
+      "stars": 0,
+      "branch": "main",
+      "kind": "plugin",
+      "category": "other",
+      "install": "togo install togo-framework/knowledge-base"
+    },
+    {
+      "name": "location",
+      "slug": "location",
+      "description": "Localization dataset for togo — countries, currencies, dial codes, timezones, languages + lookup API",
+      "language": "Go",
+      "stars": 0,
+      "branch": "main",
+      "kind": "plugin",
+      "category": "other",
+      "install": "togo install togo-framework/location"
+    },
+    {
       "name": "log",
       "slug": "log",
       "description": "togo logging: levels, text/json, file output",
@@ -219,6 +846,39 @@
       "kind": "plugin",
       "category": "infra",
       "install": "togo install togo-framework/log"
+    },
+    {
+      "name": "log-datadog",
+      "slug": "log-datadog",
+      "description": "Datadog log shipping for togo — forwards slog logs to Datadog Logs (HTTP intake)",
+      "language": "Go",
+      "stars": 0,
+      "branch": "main",
+      "kind": "plugin",
+      "category": "other",
+      "install": "togo install togo-framework/log-datadog"
+    },
+    {
+      "name": "log-logstash",
+      "slug": "log-logstash",
+      "description": "Logstash log shipping for togo — streams JSON-line logs to a Logstash TCP input",
+      "language": "Go",
+      "stars": 0,
+      "branch": "main",
+      "kind": "plugin",
+      "category": "other",
+      "install": "togo install togo-framework/log-logstash"
+    },
+    {
+      "name": "log-sentry",
+      "slug": "log-sentry",
+      "description": "Sentry error tracking for togo — captures kernel error events with stack traces",
+      "language": "Go",
+      "stars": 0,
+      "branch": "main",
+      "kind": "plugin",
+      "category": "other",
+      "install": "togo install togo-framework/log-sentry"
     },
     {
       "name": "mail",
@@ -243,6 +903,17 @@
       "install": "togo install togo-framework/mail-resend"
     },
     {
+      "name": "mail-sendgrid",
+      "slug": "mail-sendgrid",
+      "description": "SendGrid driver for togo mail",
+      "language": "Go",
+      "stars": 0,
+      "branch": "main",
+      "kind": "plugin",
+      "category": "messaging",
+      "install": "togo install togo-framework/mail-sendgrid"
+    },
+    {
       "name": "mcp",
       "slug": "mcp",
       "description": "MCP server exposing togo generators to AI agents (Claude Code, Cursor, …)",
@@ -257,12 +928,34 @@
       "name": "mcp-web",
       "slug": "mcp-web",
       "description": "Public MCP server for togo — docs, plugins, and plugin submission for agents (mcp.to-go.dev).",
-      "language": "",
+      "language": "TypeScript",
       "stars": 0,
       "branch": "main",
       "kind": "core",
       "category": "core",
       "install": null
+    },
+    {
+      "name": "media",
+      "slug": "media",
+      "description": "togo media library — uploads, image conversions & thumbnails, attach media to models",
+      "language": "Go",
+      "stars": 0,
+      "branch": "main",
+      "kind": "plugin",
+      "category": "other",
+      "install": "togo install togo-framework/media"
+    },
+    {
+      "name": "notification-center",
+      "slug": "notification-center",
+      "description": "togo notification center — in-app inbox, unread counts & live bell",
+      "language": "Go",
+      "stars": 0,
+      "branch": "main",
+      "kind": "plugin",
+      "category": "other",
+      "install": "togo install togo-framework/notification-center"
     },
     {
       "name": "notifications",
@@ -276,6 +969,28 @@
       "install": "togo install togo-framework/notifications"
     },
     {
+      "name": "notifications-discord",
+      "slug": "notifications-discord",
+      "description": "togo notifications-discord notifications channel",
+      "language": "Go",
+      "stars": 0,
+      "branch": "main",
+      "kind": "plugin",
+      "category": "messaging",
+      "install": "togo install togo-framework/notifications-discord"
+    },
+    {
+      "name": "notifications-fcm",
+      "slug": "notifications-fcm",
+      "description": "Firebase Cloud Messaging (HTTP v1) push channel for togo notifications",
+      "language": "Go",
+      "stars": 0,
+      "branch": "main",
+      "kind": "plugin",
+      "category": "messaging",
+      "install": "togo install togo-framework/notifications-fcm"
+    },
+    {
       "name": "notifications-onesignal",
       "slug": "notifications-onesignal",
       "description": "OneSignal push channel for togo notifications",
@@ -285,6 +1000,61 @@
       "kind": "plugin",
       "category": "messaging",
       "install": "togo install togo-framework/notifications-onesignal"
+    },
+    {
+      "name": "notifications-pusher",
+      "slug": "notifications-pusher",
+      "description": "Pusher Channels broadcast channel for togo notifications",
+      "language": "Go",
+      "stars": 0,
+      "branch": "main",
+      "kind": "plugin",
+      "category": "messaging",
+      "install": "togo install togo-framework/notifications-pusher"
+    },
+    {
+      "name": "notifications-slack",
+      "slug": "notifications-slack",
+      "description": "togo notifications-slack notifications channel",
+      "language": "Go",
+      "stars": 0,
+      "branch": "main",
+      "kind": "plugin",
+      "category": "messaging",
+      "install": "togo install togo-framework/notifications-slack"
+    },
+    {
+      "name": "notifications-webpush",
+      "slug": "notifications-webpush",
+      "description": "togo notifications-webpush notifications channel",
+      "language": "Go",
+      "stars": 0,
+      "branch": "main",
+      "kind": "plugin",
+      "category": "messaging",
+      "install": "togo install togo-framework/notifications-webpush"
+    },
+    {
+      "name": "observability",
+      "slug": "observability",
+      "description": "togo observability — request inspector, error tracking, logs, health & metrics",
+      "language": "Go",
+      "stars": 0,
+      "branch": "main",
+      "kind": "plugin",
+      "category": "other",
+      "install": "togo install togo-framework/observability"
+    },
+    {
+      "name": "ocr",
+      "slug": "ocr",
+      "description": "togo OCR plugin — image→text via tesseract (default) or the ai vision driver; POST /api/ocr",
+      "language": "Go",
+      "stars": 0,
+      "branch": "main",
+      "kind": "plugin",
+      "category": "other",
+      "install": "togo install togo-framework/ocr"
     },
     {
       "name": "orm",
@@ -298,6 +1068,116 @@
       "install": "togo install togo-framework/orm"
     },
     {
+      "name": "payment",
+      "slug": "payment",
+      "description": "togo payment subsystem — a Provider contract (charge/refund/checkout/customer/webhook) with a driver registry; Stripe, Paymob, Fawry, Tap, Moyasar, PayTabs, PayFort, Lemon Squeezy ship as driver plugins.",
+      "language": "Go",
+      "stars": 0,
+      "branch": "main",
+      "kind": "plugin",
+      "category": "other",
+      "install": "togo install togo-framework/payment"
+    },
+    {
+      "name": "payment-fawry",
+      "slug": "payment-fawry",
+      "description": "Fawry driver for togo payment",
+      "language": "Go",
+      "stars": 0,
+      "branch": "main",
+      "kind": "plugin",
+      "category": "other",
+      "install": "togo install togo-framework/payment-fawry"
+    },
+    {
+      "name": "payment-lemonsqueezy",
+      "slug": "payment-lemonsqueezy",
+      "description": "LemonSqueezy driver for togo payment",
+      "language": "Go",
+      "stars": 0,
+      "branch": "main",
+      "kind": "plugin",
+      "category": "other",
+      "install": "togo install togo-framework/payment-lemonsqueezy"
+    },
+    {
+      "name": "payment-moyasar",
+      "slug": "payment-moyasar",
+      "description": "Moyasar driver for togo payment",
+      "language": "Go",
+      "stars": 0,
+      "branch": "main",
+      "kind": "plugin",
+      "category": "other",
+      "install": "togo install togo-framework/payment-moyasar"
+    },
+    {
+      "name": "payment-payfort",
+      "slug": "payment-payfort",
+      "description": "PayFort driver for togo payment",
+      "language": "Go",
+      "stars": 0,
+      "branch": "main",
+      "kind": "plugin",
+      "category": "other",
+      "install": "togo install togo-framework/payment-payfort"
+    },
+    {
+      "name": "payment-paymob",
+      "slug": "payment-paymob",
+      "description": "Paymob driver for togo payment",
+      "language": "Go",
+      "stars": 0,
+      "branch": "main",
+      "kind": "plugin",
+      "category": "other",
+      "install": "togo install togo-framework/payment-paymob"
+    },
+    {
+      "name": "payment-paytabs",
+      "slug": "payment-paytabs",
+      "description": "PayTabs driver for togo payment",
+      "language": "Go",
+      "stars": 0,
+      "branch": "main",
+      "kind": "plugin",
+      "category": "other",
+      "install": "togo install togo-framework/payment-paytabs"
+    },
+    {
+      "name": "payment-stripe",
+      "slug": "payment-stripe",
+      "description": "Stripe driver for togo payment",
+      "language": "Go",
+      "stars": 0,
+      "branch": "main",
+      "kind": "plugin",
+      "category": "other",
+      "install": "togo install togo-framework/payment-stripe"
+    },
+    {
+      "name": "payment-tap",
+      "slug": "payment-tap",
+      "description": "Tap driver for togo payment",
+      "language": "Go",
+      "stars": 0,
+      "branch": "main",
+      "kind": "plugin",
+      "category": "other",
+      "install": "togo install togo-framework/payment-tap"
+    },
+    {
+      "name": "pdf",
+      "slug": "pdf",
+      "description": "togo HTML→PDF plugin — headless-Chromium driver, render API + POST /api/pdf",
+      "language": "Go",
+      "stars": 0,
+      "branch": "main",
+      "kind": "plugin",
+      "category": "other",
+      "install": "togo install togo-framework/pdf"
+    },
+    {
       "name": "plugin-auth-supabase",
       "slug": "plugin-auth-supabase",
       "description": "togo plugin: Supabase (GoTrue) JWT auth — /auth/me + bearer middleware",
@@ -307,6 +1187,17 @@
       "kind": "plugin",
       "category": "auth",
       "install": "togo install togo-framework/plugin-auth-supabase"
+    },
+    {
+      "name": "plugin-host",
+      "slug": "plugin-host",
+      "description": "togo plugin host — DB-driven runtime plugin registry, capabilities & workflow step composition",
+      "language": "Go",
+      "stars": 0,
+      "branch": "main",
+      "kind": "plugin",
+      "category": "other",
+      "install": "togo install togo-framework/plugin-host"
     },
     {
       "name": "plugin-template",
@@ -331,6 +1222,39 @@
       "install": "togo install togo-framework/queue"
     },
     {
+      "name": "queue-dashboard",
+      "slug": "queue-dashboard",
+      "description": "togo queue dashboard — monitor jobs, retries, failures & throughput",
+      "language": "Go",
+      "stars": 0,
+      "branch": "main",
+      "kind": "plugin",
+      "category": "infra",
+      "install": "togo install togo-framework/queue-dashboard"
+    },
+    {
+      "name": "rag-postgres",
+      "slug": "rag-postgres",
+      "description": "PostgreSQL vector store for ai-rag — pgvector + pg_search BM25 hybrid retrieval",
+      "language": "Go",
+      "stars": 0,
+      "branch": "main",
+      "kind": "plugin",
+      "category": "other",
+      "install": "togo install togo-framework/rag-postgres"
+    },
+    {
+      "name": "ratelimit",
+      "slug": "ratelimit",
+      "description": "togo rate limiting — sliding-window/token-bucket throttling middleware",
+      "language": "Go",
+      "stars": 0,
+      "branch": "main",
+      "kind": "plugin",
+      "category": "other",
+      "install": "togo install togo-framework/ratelimit"
+    },
+    {
       "name": "realtime",
       "slug": "realtime",
       "description": "togo realtime provider plugin",
@@ -340,6 +1264,28 @@
       "kind": "plugin",
       "category": "infra",
       "install": "togo install togo-framework/realtime"
+    },
+    {
+      "name": "realtime-grpc",
+      "slug": "realtime-grpc",
+      "description": "togo plugin: realtime-grpc",
+      "language": "Go",
+      "stars": 0,
+      "branch": "main",
+      "kind": "plugin",
+      "category": "infra",
+      "install": "togo install togo-framework/realtime-grpc"
+    },
+    {
+      "name": "realtime-nats",
+      "slug": "realtime-nats",
+      "description": "togo plugin: realtime-nats",
+      "language": "Go",
+      "stars": 0,
+      "branch": "main",
+      "kind": "plugin",
+      "category": "infra",
+      "install": "togo install togo-framework/realtime-nats"
     },
     {
       "name": "realtime-ws",
@@ -353,6 +1299,28 @@
       "install": "togo install togo-framework/realtime-ws"
     },
     {
+      "name": "saas",
+      "slug": "saas",
+      "description": "Multi-tenant SaaS for togo: domain/tenant-id resolution + shared-DB or DB-per-tenant isolation",
+      "language": "Go",
+      "stars": 0,
+      "branch": "main",
+      "kind": "plugin",
+      "category": "other",
+      "install": "togo install togo-framework/saas"
+    },
+    {
+      "name": "scheduler",
+      "slug": "scheduler",
+      "description": "togo task scheduler — cron & recurring jobs over the queue",
+      "language": "Go",
+      "stars": 0,
+      "branch": "main",
+      "kind": "plugin",
+      "category": "other",
+      "install": "togo install togo-framework/scheduler"
+    },
+    {
       "name": "search",
       "slug": "search",
       "description": "togo search: ParadeDB default + ES/OpenSearch plugins",
@@ -362,6 +1330,17 @@
       "kind": "plugin",
       "category": "data",
       "install": "togo install togo-framework/search"
+    },
+    {
+      "name": "search-algolia",
+      "slug": "search-algolia",
+      "description": "Algolia driver for togo full-text search",
+      "language": "Go",
+      "stars": 0,
+      "branch": "main",
+      "kind": "plugin",
+      "category": "data",
+      "install": "togo install togo-framework/search-algolia"
     },
     {
       "name": "search-elasticsearch",
@@ -375,6 +1354,50 @@
       "install": "togo install togo-framework/search-elasticsearch"
     },
     {
+      "name": "search-meilisearch",
+      "slug": "search-meilisearch",
+      "description": "Meilisearch driver for togo full-text search",
+      "language": "Go",
+      "stars": 0,
+      "branch": "main",
+      "kind": "plugin",
+      "category": "data",
+      "install": "togo install togo-framework/search-meilisearch"
+    },
+    {
+      "name": "search-typesense",
+      "slug": "search-typesense",
+      "description": "Typesense driver for togo full-text search",
+      "language": "Go",
+      "stars": 0,
+      "branch": "main",
+      "kind": "plugin",
+      "category": "data",
+      "install": "togo install togo-framework/search-typesense"
+    },
+    {
+      "name": "seo",
+      "slug": "seo",
+      "description": "togo SEO/AEO plugin — sitemap, robots, llms.txt, meta/OG/JSON-LD + IndexNow / Google Analytics / Search Console / Bing providers.",
+      "language": "Go",
+      "stars": 0,
+      "branch": "main",
+      "kind": "plugin",
+      "category": "other",
+      "install": "togo install togo-framework/seo"
+    },
+    {
+      "name": "settings",
+      "slug": "settings",
+      "description": "Shared typed config store for togo — DB-backed, scoped, Go + REST API",
+      "language": "Go",
+      "stars": 0,
+      "branch": "main",
+      "kind": "plugin",
+      "category": "other",
+      "install": "togo install togo-framework/settings"
+    },
+    {
       "name": "storage",
       "slug": "storage",
       "description": "togo storage provider plugin",
@@ -386,6 +1409,39 @@
       "install": "togo install togo-framework/storage"
     },
     {
+      "name": "storage-gdrive",
+      "slug": "storage-gdrive",
+      "description": "togo storage driver",
+      "language": "Go",
+      "stars": 0,
+      "branch": "main",
+      "kind": "plugin",
+      "category": "data",
+      "install": "togo install togo-framework/storage-gdrive"
+    },
+    {
+      "name": "storage-r2",
+      "slug": "storage-r2",
+      "description": "togo storage driver",
+      "language": "Go",
+      "stars": 0,
+      "branch": "main",
+      "kind": "plugin",
+      "category": "data",
+      "install": "togo install togo-framework/storage-r2"
+    },
+    {
+      "name": "storage-s3",
+      "slug": "storage-s3",
+      "description": "togo storage driver",
+      "language": "Go",
+      "stars": 0,
+      "branch": "main",
+      "kind": "plugin",
+      "category": "data",
+      "install": "togo install togo-framework/storage-s3"
+    },
+    {
       "name": "storage-supabase",
       "slug": "storage-supabase",
       "description": "Supabase Storage driver for togo",
@@ -395,6 +1451,17 @@
       "kind": "plugin",
       "category": "data",
       "install": "togo install togo-framework/storage-supabase"
+    },
+    {
+      "name": "subscriptions",
+      "slug": "subscriptions",
+      "description": "Subscription management for togo — plans, trials, subscribe/cancel/change, over the payment plugin",
+      "language": "Go",
+      "stars": 0,
+      "branch": "main",
+      "kind": "plugin",
+      "category": "other",
+      "install": "togo install togo-framework/subscriptions"
     },
     {
       "name": "supabase",
@@ -419,6 +1486,17 @@
       "install": "togo install togo-framework/testing"
     },
     {
+      "name": "testing-playwright",
+      "slug": "testing-playwright",
+      "description": "togo plugin: testing-playwright",
+      "language": "TypeScript",
+      "stars": 0,
+      "branch": "main",
+      "kind": "plugin",
+      "category": "other",
+      "install": "togo install togo-framework/testing-playwright"
+    },
+    {
       "name": "to-go.dev",
       "slug": "to-go.dev",
       "description": "to-go.dev — the togo framework website: landing, docs, install.sh/update.sh.",
@@ -434,11 +1512,77 @@
       "slug": "togo",
       "description": "Go, the artisan way — microkernel of the togo framework (Go + sqlc + Atlas + GraphQL/OpenAPI + Next.js)",
       "language": "Go",
-      "stars": 0,
+      "stars": 1,
       "branch": "main",
       "kind": "core",
       "category": "core",
       "install": null
+    },
+    {
+      "name": "translation",
+      "slug": "translation",
+      "description": "DB-backed dynamic i18n for togo — edit translations at runtime, falls back to the static i18n catalog",
+      "language": "Go",
+      "stars": 0,
+      "branch": "main",
+      "kind": "plugin",
+      "category": "other",
+      "install": "togo install togo-framework/translation"
+    },
+    {
+      "name": "tunnel",
+      "slug": "tunnel",
+      "description": "togo public-tunnel subsystem — one contract over Cloudflare Tunnel, ngrok, Tailscale Funnel, frp",
+      "language": "Go",
+      "stars": 0,
+      "branch": "main",
+      "kind": "plugin",
+      "category": "other",
+      "install": "togo install togo-framework/tunnel"
+    },
+    {
+      "name": "tunnel-cloudflare",
+      "slug": "tunnel-cloudflare",
+      "description": "Cloudflare Tunnel driver for togo tunnel",
+      "language": "Go",
+      "stars": 0,
+      "branch": "main",
+      "kind": "plugin",
+      "category": "other",
+      "install": "togo install togo-framework/tunnel-cloudflare"
+    },
+    {
+      "name": "tunnel-frp",
+      "slug": "tunnel-frp",
+      "description": "togo tunnel-frp plugin",
+      "language": "Go",
+      "stars": 0,
+      "branch": "main",
+      "kind": "plugin",
+      "category": "other",
+      "install": "togo install togo-framework/tunnel-frp"
+    },
+    {
+      "name": "tunnel-ngrok",
+      "slug": "tunnel-ngrok",
+      "description": "ngrok driver for togo tunnel (pure-Go SDK)",
+      "language": "Go",
+      "stars": 0,
+      "branch": "main",
+      "kind": "plugin",
+      "category": "other",
+      "install": "togo install togo-framework/tunnel-ngrok"
+    },
+    {
+      "name": "tunnel-tailscale",
+      "slug": "tunnel-tailscale",
+      "description": "togo tunnel-tailscale plugin",
+      "language": "Go",
+      "stars": 0,
+      "branch": "main",
+      "kind": "plugin",
+      "category": "other",
+      "install": "togo install togo-framework/tunnel-tailscale"
     },
     {
       "name": "ui",
@@ -463,6 +1607,17 @@
       "install": "togo install togo-framework/validation"
     },
     {
+      "name": "webhooks",
+      "slug": "webhooks",
+      "description": "togo outgoing webhooks — signed, retried event delivery to subscribers",
+      "language": "Go",
+      "stars": 0,
+      "branch": "main",
+      "kind": "plugin",
+      "category": "other",
+      "install": "togo install togo-framework/webhooks"
+    },
+    {
       "name": "worker",
       "slug": "worker",
       "description": "togo worker: supervised multi-threaded worker pools",
@@ -472,6 +1627,17 @@
       "kind": "plugin",
       "category": "infra",
       "install": "togo install togo-framework/worker"
+    },
+    {
+      "name": "workflow",
+      "slug": "workflow",
+      "description": "togo workflow plugin",
+      "language": "Go",
+      "stars": 0,
+      "branch": "main",
+      "kind": "plugin",
+      "category": "other",
+      "install": "togo install togo-framework/workflow"
     }
   ]
 }
