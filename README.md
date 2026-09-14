@@ -1,4 +1,4 @@
-<p align="center"><img src="https://raw.githubusercontent.com/togo-framework/.github/main/profile/assets/togo-mark.svg" width="96" alt="togo"></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset=".github/assets/togo-mark-dark.svg" /><img src=".github/assets/togo-mark.svg" alt="ToGO" width="96" /></picture></p>
 <h1 align="center">@togo-framework/mcp-web</h1>
 <p align="center">The public <a href="https://modelcontextprotocol.io">MCP</a> server for togo — docs, the plugin marketplace, and plugin submission, for any agent.</p>
 
