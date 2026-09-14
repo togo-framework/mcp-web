@@ -201,12 +201,13 @@ app.get("/", async (_req, res) => {
   const plugins = repos.filter((r) => r.kind === "plugin").length;
   res.type("html").send(
     `<!doctype html><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><title>togo MCP</title>` +
-    `<body style="font-family:system-ui,sans-serif;background:#07090c;color:#e8eef2;max-width:640px;margin:80px auto;padding:0 24px;line-height:1.6">` +
-    `<h1 style="color:#1FC7DC">togo MCP</h1>` +
-    `<p>Public Model Context Protocol server for the <a style="color:#1FC7DC" href="https://to-go.dev">togo</a> framework.</p>` +
-    `<p>Connect (Streamable HTTP): <code style="background:#141a21;padding:3px 7px;border-radius:5px">https://mcp.to-go.dev/mcp</code></p>` +
+    `<body style="font-family:system-ui,sans-serif;background:#0B1429;color:#F0EBE1;max-width:640px;margin:80px auto;padding:0 24px;line-height:1.6">` +
+    `<svg viewBox="0 0 100 100" width="48" height="48" role="img" aria-label="ToGO" shape-rendering="crispEdges"><rect x="8" y="29" width="21" height="21" fill="#F0EBE1"/><rect x="29" y="8" width="21" height="21" fill="#F0EBE1"/><rect x="29" y="50" width="21" height="21" fill="#F0EBE1"/><rect x="50" y="29" width="21" height="21" fill="#1F8A99"/><rect x="50" y="71" width="21" height="21" fill="#1F8A99"/><rect x="71" y="50" width="21" height="21" fill="#1F8A99"/></svg>` +
+    `<h1 style="font-weight:500;margin-top:16px">togo MCP</h1>` +
+    `<p>Public Model Context Protocol server for the <a style="color:#1F8A99" href="https://to-go.dev">togo</a> framework.</p>` +
+    `<p>Connect (Streamable HTTP): <code style="background:#0E1A3C;border:1px solid #25355C;padding:3px 7px;border-radius:6px">https://mcp.to-go.dev/mcp</code></p>` +
     `<p>Tools: <code>framework_overview</code>, <code>list_plugins</code>, <code>get_plugin</code>, <code>search_docs</code>, <code>get_doc</code>, <code>submit_plugin</code>.</p>` +
-    `<p style="color:#8b97a3;font-size:14px">${repos.length} repos · ${plugins} plugins (live) · <a style="color:#8b97a3" href="https://github.com/togo-framework/mcp-web">source</a></p></body>`
+    `<p style="color:#8A97B8;font-size:14px">${repos.length} repos · ${plugins} plugins (live) · <a style="color:#8A97B8" href="https://github.com/togo-framework/mcp-web">source</a></p></body>`
   );
 });
 app.get("/healthz", async (_req, res) => {
