@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.togo-framework/togo",
+  "title": "ToGO",
+  "description": "ToGO docs and plugins for agents: a full-stack Go + React framework, plus plugin submission.",
+  "version": "0.1.0",
+  "websiteUrl": "https://to-go.dev",
+  "repository": {
+    "url": "https://github.com/togo-framework/mcp-web",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.to-go.dev/mcp"
+    }
+  ]
+}
